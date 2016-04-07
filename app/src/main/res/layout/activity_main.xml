@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mycompany.weathertest.MainActivity">
+
+    <Button
+        android:id="@+id/bt_choice_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换城市"
+        android:textAllCaps="false" />
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_get_city"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="刷新"-->
+        <!--android:textAllCaps="false" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_city_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp" />-->
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:paddingLeft="20dp"/>
+
+</RelativeLayout>
